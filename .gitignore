@@ -1,0 +1,10 @@
+.vscode/
+
+tmp/
+node_modules/
+dist/
+statik/
+
+go-dashboard
+*.bak
+.env
