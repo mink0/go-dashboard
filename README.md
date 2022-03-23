@@ -8,13 +8,20 @@ This approach allows you to minify and pack any complex assents into a single ex
 
 - [go](https://go.dev/dl/)
 - [nodejs](https://nodejs.org/en/)
-- [statik](https://github.com/rakyll/statik)
 
 ### Optional
 
 - [air](https://github.com/cosmtrek/air) for live reload
 
 ## Install
+
+Install the command line tool for [statik](https://github.com/rakyll/statik) first:
+    
+    go install github.com/rakyll/statik@v0.1.7
+
+Statik is a tiny program that reads a directory and generates a source file that contains its contents. The generated source file registers the directory contents to be used by statik file system.
+
+Then run make install:
 
     make install
 
