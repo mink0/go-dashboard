@@ -1,8 +1,11 @@
 # go-dashboard
 
-Cross-platform single-page application prototype which could be compiled into a single binary using [Golang](https://go.dev/).
+Cross-platform single-page application prototype which could be compiled into a small single binary using [Go](https://go.dev/).
+This is a PoC showing how we can pack any complex assets (js, css, html) into a single binary to easily distribute it as a cross-platform solution.
+
+## Design
+
 The application consists of two parts: the front-end SPA with realtime data display written in VueJS and the back-end API web server written in Go.
-This approach allows you to minify and pack any complex assents into a single executable file which could.
 
 ## Requirements
 
